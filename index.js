@@ -45,7 +45,7 @@ server.get('/',(req, res)=>{
     res.json({status:'success'})
 })
 
-// const password = encodeURIComponent('Rohit@08022002');
+
 
 server.listen(process.env.PORT, ()=>{
     console.log('server started')
